@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header-wrapper">
+            <div class="white-banner">
+            </div>
+            
+            <div class="profile-wrapper">
+                <img src="data:image/png;base64,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" class="profile-picture">  
+            </div>
+
+
+            <div class="name-wrapper">
+               <span class="name">
+                    Naveen
+               </span>
+            </div>
+
+           
+        </div>
+        <div class="contact-wrapper">
+            N0.36, ABCD street, XYZ post, High Sparrow, Kings Landing, South | 1234567890 | naveen@gmail.com
+        </div>
+        <div class="body-wrapper">
+            <div class="left-wrapper">
+                <div class="section-wrapper">
+                    <div class="section-header">
+                       <div class="border-wrapper">
+                            <div class="icon-wrapper">
+                                <i class="fa-solid fa-user fa-2x icon"></i>
+                            </div>  
+                       </div>
+                        <div class="title">
+                            Profile
+                        </div>
+                    </div>
+                    <div class="section-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores repellat esse qui exercitationem in dolores, quod accusantium vero odit dolore fugiat suscipit veniam porro earum voluptas optio quaerat. Saepe, id?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam suscipit, est dolore sed rem ipsa minus nihil ipsum ducimus nam eos id enim atque molestiae fuga quasi ullam perferendis consequatur.
+                    </div>
+
+                </div>
+                <div class="section-wrapper">
+                    <div class="section-header">
+                       <div class="border-wrapper">
+                            <div class="icon-wrapper">
+                                <i class="fa-solid fa-flask fa-2x icon"></i>
+                            </div>  
+                       </div>
+                        <div class="title">
+                            Skills
+                        </div>
+                    </div>
+                    <div class="section-body">
+                        <h5 style="text-align: center;"><b>Technical Skills</b></h5>
+                        <div class="row">
+                            <div class="col-4">JavaScript</div>
+                            <div class="col-8"><progress max="100" value="70" class="progress"></progress></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">HTML</div>
+                            <div class="col-8"><progress max="100" value="60" class="progress"></progress></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">CSS</div>
+                            <div class="col-8"><progress max="100" value="50" class="progress"></progress></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">React</div>
+                            <div class="col-8"><progress max="100" value="80" class="progress"></progress></div>
+                        </div>
+
+                        <h5 style="text-align: center;"><b>Additional Skills</b></h5>
+                        <div class="row">
+                            <div class="col-4">JavaScript</div>
+                            <div class="col-8"><progress max="100" value="70" class="progress"></progress></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">HTML</div>
+                            <div class="col-8"><progress max="100" value="60" class="progress"></progress></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">CSS</div>
+                            <div class="col-8"><progress max="100" value="50" class="progress"></progress></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">React</div>
+                            <div class="col-8"><progress max="100" value="80" class="progress"></progress></div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="section-wrapper">
+                    <div class="section-header">
+                       <div class="border-wrapper">
+                            <div class="icon-wrapper">
+                                <i class="fa-solid fa-briefcase fa-2x icon"></i>
+                            </div>  
+                       </div>
+                        <div class="title">
+                            Work Experience
+                        </div>
+                    </div>
+                    <div class="section-body">
+                        <div class="experience">
+                            <div><b>ABC Info Tech</b></div>
+                            <div>12/2010 - 1/2018</div>
+                        </div>
+                        <div>ABC IT Park, Delhi</div>
+                    </div>
+
+                    <ul>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perspiciatis quas dolores at placeat quisquam, facere doloribus vitae, amet iusto nisi veritatis tempore sit sint, molestiae reprehenderit cupiditate totam quo?</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae rerum quis harum facilis voluptates totam velit aut, vel quo culpa tenetur commodi? Aut adipisci necessitatibus nobis vel voluptates in!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro eos nihil odit dolor temporibus sed labore provident ullam earum voluptatum voluptas debitis, amet commodi animi consectetur sequi est repellat.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-wrapper">
+                <div class="section-wrapper">
+                    <div class="section-header">
+                       <div class="border-wrapper">
+                            <div class="icon-wrapper">
+                                <i class="fa-solid fa-briefcase fa-2x icon"></i>
+                            </div>  
+                       </div>
+                        <div class="title">
+                            Work Experience
+                        </div>
+                    </div>
+                    <div class="section-body">
+                        <div class="experience">
+                            <div><b>GUVI GEEK PVT LTD</b></div>
+                            <div>11/2018 - Present</div>
+                        </div>
+                        <div>ABC IT Park, Delhi</div>
+                    </div>
+
+                    <ul>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perspiciatis quas dolores at placeat quisquam, facere doloribus vitae, amet iusto nisi veritatis tempore sit sint, molestiae reprehenderit cupiditate totam quo?</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae rerum quis harum facilis voluptates totam velit aut, vel quo culpa tenetur commodi? Aut adipisci necessitatibus nobis vel voluptates in!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro eos nihil odit dolor temporibus sed labore provident ullam earum voluptatum voluptas debitis, amet commodi animi consectetur sequi est repellat.</li>
+                    </ul>
+                </div>
+
+                <div class="section-wrapper">
+                    <div class="section-header">
+                       <div class="border-wrapper">
+                            <div class="icon-wrapper">
+                                <i class="fa-solid fa-graduation-cap fa-2x icon"></i>
+                            </div>  
+                       </div>
+                        <div class="title">
+                            Education
+                        </div>
+                    </div>
+                    <div class="section-body">
+                        <div class="experience">
+                            <div><b>GUVI GEEK PVT LTD</b></div>
+                            <div>11/2018 - Present</div>
+                        </div>
+                        <div>ABC IT Park, Delhi</div>
+                    </div>
+                    <ul>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perspiciatis quas dolores at placeat quisquam, facere doloribus vitae, amet iusto nisi veritatis tempore sit sint, molestiae reprehenderit cupiditate totam quo?</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae rerum quis harum facilis voluptates totam velit aut, vel quo culpa tenetur commodi? Aut adipisci necessitatibus nobis vel voluptates in!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro eos nihil odit dolor temporibus sed labore provident ullam earum voluptatum voluptas debitis, amet commodi animi consectetur sequi est repellat.</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/54c6e03859.js" crossorigin="anonymous"></script>
+</body>
+</html>
